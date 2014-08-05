@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDAA908119917F0400278C19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAA908019917F0400278C19 /* Foundation.framework */; };
+		EDAA908319917F0400278C19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAA908219917F0400278C19 /* CoreGraphics.framework */; };
+		EDAA908519917F0400278C19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAA908419917F0400278C19 /* UIKit.framework */; };
+		EDAA908B19917F0400278C19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDAA908919917F0400278C19 /* InfoPlist.strings */; };
+		EDAA908D19917F0400278C19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA908C19917F0400278C19 /* main.m */; };
+		EDAA909119917F0400278C19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA909019917F0400278C19 /* AppDelegate.m */; };
+		EDAA909419917F0400278C19 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAA909219917F0400278C19 /* Main_iPhone.storyboard */; };
+		EDAA909719917F0400278C19 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAA909519917F0400278C19 /* Main_iPad.storyboard */; };
+		EDAA909A19917F0400278C19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA909919917F0400278C19 /* ViewController.m */; };
+		EDAA909C19917F0400278C19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAA909B19917F0400278C19 /* Images.xcassets */; };
+		EDAA90A319917F0400278C19 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAA90A219917F0400278C19 /* XCTest.framework */; };
+		EDAA90A419917F0400278C19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAA908019917F0400278C19 /* Foundation.framework */; };
+		EDAA90A519917F0400278C19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAA908419917F0400278C19 /* UIKit.framework */; };
+		EDAA90AD19917F0400278C19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDAA90AB19917F0400278C19 /* InfoPlist.strings */; };
+		EDAA90AF19917F0400278C19 /* StorTrends_Partner_PortalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA90AE19917F0400278C19 /* StorTrends_Partner_PortalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDAA90A619917F0400278C19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDAA907519917F0400278C19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAA907C19917F0400278C19;
+			remoteInfo = "StorTrends Partner Portal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDAA907D19917F0400278C19 /* StorTrends Partner Portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StorTrends Partner Portal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAA908019917F0400278C19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDAA908219917F0400278C19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDAA908419917F0400278C19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDAA908819917F0400278C19 /* StorTrends Partner Portal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StorTrends Partner Portal-Info.plist"; sourceTree = "<group>"; };
+		EDAA908A19917F0400278C19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDAA908C19917F0400278C19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDAA908E19917F0400278C19 /* StorTrends Partner Portal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StorTrends Partner Portal-Prefix.pch"; sourceTree = "<group>"; };
+		EDAA908F19917F0400278C19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDAA909019917F0400278C19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDAA909319917F0400278C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EDAA909619917F0400278C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EDAA909819917F0400278C19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDAA909919917F0400278C19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDAA909B19917F0400278C19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDAA90A119917F0400278C19 /* StorTrends Partner PortalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StorTrends Partner PortalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAA90A219917F0400278C19 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EDAA90AA19917F0400278C19 /* StorTrends Partner PortalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StorTrends Partner PortalTests-Info.plist"; sourceTree = "<group>"; };
+		EDAA90AC19917F0400278C19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDAA90AE19917F0400278C19 /* StorTrends_Partner_PortalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorTrends_Partner_PortalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDAA907A19917F0400278C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAA908319917F0400278C19 /* CoreGraphics.framework in Frameworks */,
+				EDAA908519917F0400278C19 /* UIKit.framework in Frameworks */,
+				EDAA908119917F0400278C19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAA909E19917F0400278C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAA90A319917F0400278C19 /* XCTest.framework in Frameworks */,
+				EDAA90A519917F0400278C19 /* UIKit.framework in Frameworks */,
+				EDAA90A419917F0400278C19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDAA907419917F0400278C19 = {
+			isa = PBXGroup;
+			children = (
+				EDAA908619917F0400278C19 /* StorTrends Partner Portal */,
+				EDAA90A819917F0400278C19 /* StorTrends Partner PortalTests */,
+				EDAA907F19917F0400278C19 /* Frameworks */,
+				EDAA907E19917F0400278C19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDAA907E19917F0400278C19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA907D19917F0400278C19 /* StorTrends Partner Portal.app */,
+				EDAA90A119917F0400278C19 /* StorTrends Partner PortalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDAA907F19917F0400278C19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA908019917F0400278C19 /* Foundation.framework */,
+				EDAA908219917F0400278C19 /* CoreGraphics.framework */,
+				EDAA908419917F0400278C19 /* UIKit.framework */,
+				EDAA90A219917F0400278C19 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDAA908619917F0400278C19 /* StorTrends Partner Portal */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA908F19917F0400278C19 /* AppDelegate.h */,
+				EDAA909019917F0400278C19 /* AppDelegate.m */,
+				EDAA909219917F0400278C19 /* Main_iPhone.storyboard */,
+				EDAA909519917F0400278C19 /* Main_iPad.storyboard */,
+				EDAA909819917F0400278C19 /* ViewController.h */,
+				EDAA909919917F0400278C19 /* ViewController.m */,
+				EDAA909B19917F0400278C19 /* Images.xcassets */,
+				EDAA908719917F0400278C19 /* Supporting Files */,
+			);
+			path = "StorTrends Partner Portal";
+			sourceTree = "<group>";
+		};
+		EDAA908719917F0400278C19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA908819917F0400278C19 /* StorTrends Partner Portal-Info.plist */,
+				EDAA908919917F0400278C19 /* InfoPlist.strings */,
+				EDAA908C19917F0400278C19 /* main.m */,
+				EDAA908E19917F0400278C19 /* StorTrends Partner Portal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDAA90A819917F0400278C19 /* StorTrends Partner PortalTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA90AE19917F0400278C19 /* StorTrends_Partner_PortalTests.m */,
+				EDAA90A919917F0400278C19 /* Supporting Files */,
+			);
+			path = "StorTrends Partner PortalTests";
+			sourceTree = "<group>";
+		};
+		EDAA90A919917F0400278C19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDAA90AA19917F0400278C19 /* StorTrends Partner PortalTests-Info.plist */,
+				EDAA90AB19917F0400278C19 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDAA907C19917F0400278C19 /* StorTrends Partner Portal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAA90B219917F0400278C19 /* Build configuration list for PBXNativeTarget "StorTrends Partner Portal" */;
+			buildPhases = (
+				EDAA907919917F0400278C19 /* Sources */,
+				EDAA907A19917F0400278C19 /* Frameworks */,
+				EDAA907B19917F0400278C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StorTrends Partner Portal";
+			productName = "StorTrends Partner Portal";
+			productReference = EDAA907D19917F0400278C19 /* StorTrends Partner Portal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDAA90A019917F0400278C19 /* StorTrends Partner PortalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAA90B519917F0400278C19 /* Build configuration list for PBXNativeTarget "StorTrends Partner PortalTests" */;
+			buildPhases = (
+				EDAA909D19917F0400278C19 /* Sources */,
+				EDAA909E19917F0400278C19 /* Frameworks */,
+				EDAA909F19917F0400278C19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAA90A719917F0400278C19 /* PBXTargetDependency */,
+			);
+			name = "StorTrends Partner PortalTests";
+			productName = "StorTrends Partner PortalTests";
+			productReference = EDAA90A119917F0400278C19 /* StorTrends Partner PortalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDAA907519917F0400278C19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "American Megatrends, Inc.";
+				TargetAttributes = {
+					EDAA90A019917F0400278C19 = {
+						TestTargetID = EDAA907C19917F0400278C19;
+					};
+				};
+			};
+			buildConfigurationList = EDAA907819917F0400278C19 /* Build configuration list for PBXProject "StorTrends Partner Portal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDAA907419917F0400278C19;
+			productRefGroup = EDAA907E19917F0400278C19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDAA907C19917F0400278C19 /* StorTrends Partner Portal */,
+				EDAA90A019917F0400278C19 /* StorTrends Partner PortalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDAA907B19917F0400278C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAA909719917F0400278C19 /* Main_iPad.storyboard in Resources */,
+				EDAA909C19917F0400278C19 /* Images.xcassets in Resources */,
+				EDAA909419917F0400278C19 /* Main_iPhone.storyboard in Resources */,
+				EDAA908B19917F0400278C19 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAA909F19917F0400278C19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAA90AD19917F0400278C19 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDAA907919917F0400278C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAA909A19917F0400278C19 /* ViewController.m in Sources */,
+				EDAA909119917F0400278C19 /* AppDelegate.m in Sources */,
+				EDAA908D19917F0400278C19 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAA909D19917F0400278C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAA90AF19917F0400278C19 /* StorTrends_Partner_PortalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDAA90A719917F0400278C19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAA907C19917F0400278C19 /* StorTrends Partner Portal */;
+			targetProxy = EDAA90A619917F0400278C19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDAA908919917F0400278C19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAA908A19917F0400278C19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDAA909219917F0400278C19 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAA909319917F0400278C19 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EDAA909519917F0400278C19 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAA909619917F0400278C19 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EDAA90AB19917F0400278C19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDAA90AC19917F0400278C19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDAA90B019917F0400278C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDAA90B119917F0400278C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDAA90B319917F0400278C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StorTrends Partner Portal/StorTrends Partner Portal-Prefix.pch";
+				INFOPLIST_FILE = "StorTrends Partner Portal/StorTrends Partner Portal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDAA90B419917F0400278C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StorTrends Partner Portal/StorTrends Partner Portal-Prefix.pch";
+				INFOPLIST_FILE = "StorTrends Partner Portal/StorTrends Partner Portal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EDAA90B619917F0400278C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StorTrends Partner Portal.app/StorTrends Partner Portal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StorTrends Partner Portal/StorTrends Partner Portal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StorTrends Partner PortalTests/StorTrends Partner PortalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EDAA90B719917F0400278C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StorTrends Partner Portal.app/StorTrends Partner Portal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StorTrends Partner Portal/StorTrends Partner Portal-Prefix.pch";
+				INFOPLIST_FILE = "StorTrends Partner PortalTests/StorTrends Partner PortalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDAA907819917F0400278C19 /* Build configuration list for PBXProject "StorTrends Partner Portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAA90B019917F0400278C19 /* Debug */,
+				EDAA90B119917F0400278C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAA90B219917F0400278C19 /* Build configuration list for PBXNativeTarget "StorTrends Partner Portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAA90B319917F0400278C19 /* Debug */,
+				EDAA90B419917F0400278C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDAA90B519917F0400278C19 /* Build configuration list for PBXNativeTarget "StorTrends Partner PortalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAA90B619917F0400278C19 /* Debug */,
+				EDAA90B719917F0400278C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDAA907519917F0400278C19 /* Project object */;
+}
