@@ -54,6 +54,13 @@
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="qQJ-6E-Bp8"/>
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="oVr-l9-Lhy"/>
+                    <connections>
+                        <outlet property="back" destination="2uB-wQ-f3b" id="xvy-ud-iWz"/>
+                        <outlet property="forward" destination="qyg-4q-bQR" id="XrQ-pe-iOM"/>
+                        <outlet property="refresh" destination="exx-ll-fhq" id="Yt5-7d-dHY"/>
+                        <outlet property="stop" destination="3xg-gn-OlY" id="fJg-d2-ZsP"/>
+                        <outlet property="webView" destination="Zhv-kp-xUs" id="1fG-C1-EaI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
