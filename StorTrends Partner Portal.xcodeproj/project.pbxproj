@@ -114,6 +114,7 @@
 		EDAA908619917F0400278C19 /* StorTrends Partner Portal */ = {
 			isa = PBXGroup;
 			children = (
+				EDCA7682199278180042BAB2 /* iPad */,
 				EDAA908F19917F0400278C19 /* AppDelegate.h */,
 				EDAA909019917F0400278C19 /* AppDelegate.m */,
 				EDAA909219917F0400278C19 /* Main_iPhone.storyboard */,
@@ -153,6 +154,13 @@
 				EDAA90AB19917F0400278C19 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDCA7682199278180042BAB2 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,9 +406,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StorTrends Partner Portal/StorTrends Partner Portal-Prefix.pch";
 				INFOPLIST_FILE = "StorTrends Partner Portal/StorTrends Partner Portal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -415,9 +424,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StorTrends Partner Portal/StorTrends Partner Portal-Prefix.pch";
 				INFOPLIST_FILE = "StorTrends Partner Portal/StorTrends Partner Portal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -481,6 +491,7 @@
 				EDAA90B419917F0400278C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDAA90B519917F0400278C19 /* Build configuration list for PBXNativeTarget "StorTrends Partner PortalTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +500,7 @@
 				EDAA90B719917F0400278C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
