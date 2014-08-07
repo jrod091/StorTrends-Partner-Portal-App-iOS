@@ -34,6 +34,9 @@ static const CGFloat kSpacer = 2.0f;
 	// Do any additional setup after loading the view, typically from a nib.
     self.webView.delegate = self;
     
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    [self.view setFrame:CGRectMake(0, 0, screenBounds.size.width, screenBounds.size.height)];
+    
     NSString* pageTitle = @"StorTrends Partner Portal";
     
     UINavigationBar *navBar = self.navigationController.navigationBar;

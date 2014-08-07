@@ -67,7 +67,7 @@
         <!--Navigation Controller-->
         <scene sceneID="GXA-tr-yRs">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="B07-aq-Zqb" sceneMemberID="viewController">
+                <navigationController toolbarHidden="NO" id="B07-aq-Zqb" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dZI-PG-h1y">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -85,7 +85,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="45u-5K-44c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="295" y="132"/>
+            <point key="canvasLocation" x="312" y="132"/>
         </scene>
     </scenes>
     <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
