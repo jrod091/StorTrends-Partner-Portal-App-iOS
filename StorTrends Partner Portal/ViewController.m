@@ -95,9 +95,11 @@ static const CGFloat kSpacer = 2.0f;
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
 {
-    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-    [self updateButtons];
-    [self informError:error];
+    if ([error code] != -999) {
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+        [self updateButtons];
+        [self informError:error];
+    }
 }
 
 @end
